@@ -12,7 +12,7 @@ app = QApplication(sys.argv)
 window = My_window_creator()
 
 # Ícone do botão
-Icone = QIcon("/media/thales/LINUX_HD/Programacao/Python_clicker/src/icon_python.png")
+Icone = QIcon("/Python_clicker/src/icon_python.png")
 
 # Lógica
 snakes = {"count": 0}

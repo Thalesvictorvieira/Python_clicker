@@ -9,9 +9,9 @@ from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput, QSoundEffect
 
 # Caminhos
 CAMINHO_ARQUIVO = "savegame.json"
-CLICK_SOUND_PATH = "/media/thales/LINUX_HD/Programacao/Python_clicker/src/assets/sounds/Click.wav"
-MUSIC_PATH = "/media/thales/LINUX_HD/Programacao/Python_clicker/src/assets/sounds/Music.mp3"
-BACKGROUND_IMAGE_PATH = "/media/thales/LINUX_HD/Programacao/Python_clicker/src/assets/icons/background.png"  # ajuste o caminho
+CLICK_SOUND_PATH = "/src/assets/sounds/Click.wav"
+MUSIC_PATH = "/Python_clicker/src/assets/sounds/Music.mp3"
+BACKGROUND_IMAGE_PATH = "/Python_clicker/src/assets/icons/background.png"  # ajuste o caminho
 
 # Variáveis do jogo
 snakes = {"Clicks": 0}
@@ -40,7 +40,7 @@ class MainWindow(QWidget):
 
         # Botão principal
         self.Python_button = QPushButton()
-        self.Python_button.setIcon(QIcon("/media/thales/LINUX_HD/Programacao/Python_clicker/src/assets/icons/icon_python.png"))
+        self.Python_button.setIcon(QIcon("/Python_clicker/src/assets/icons/icon_python.png"))
         self.Python_button.setFixedSize(150, 150)
         self.Python_button.setIconSize(QSize(100, 100))
         self.Python_button.setStyleSheet('''

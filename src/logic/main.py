@@ -27,7 +27,7 @@ def Action_cliclk():
 Principal_button = QPushButton()
 
 #input a image in a Principal Button
-Icone = QIcon("/media/thales/LINUX_HD/Programacao/Python_clicker/src/icon_python.png")
+Icone = QIcon("/Python_clicker/src/icon_python.png")
 Principal_button.setIcon(Icone)  # Substitua por seu arquivo de imagem
 Principal_button.setIconSize(QSize(64, 64))  # Tamanho da imagem no botão
 Principal_button.setStyleSheet("font-size: 14px; padding: 10px;")
